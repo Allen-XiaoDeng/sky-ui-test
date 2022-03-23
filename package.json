@@ -2,10 +2,17 @@
   "name": "sky-ui",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
   "repository": "git@github.com:Allen-XiaoDeng/sky-ui.git",
   "author": "Allen <1942813644@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^17.0.41",
+    "@types/react-dom": "^17.0.14",
     "@webpack-cli/serve": "^1.6.1",
     "awesome-typescript-loader": "^5.2.1",
     "html-webpack-plugin": "3.2.0",
@@ -13,5 +20,9 @@
     "webpack": "4.29.6",
     "webpack-cli": "3.2.3",
     "webpack-dev-server": "3.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
