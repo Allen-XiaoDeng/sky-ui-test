@@ -1,0 +1,8 @@
+{
+  "name": "sky-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Allen-XiaoDeng/sky-ui.git",
+  "author": "Allen <1942813644@qq.com>",
+  "license": "MIT"
+}
